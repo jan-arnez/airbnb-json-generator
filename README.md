@@ -4,20 +4,21 @@
 1. Fork the project
 
 2. Install dependencies and run both projects
-   
-`cd backend`
 
-`npm i`
+**Second terminal**
+```cd backend```
 
-`npm run dev`  
+```npm i```
 
-*Open a separate terminal and keep the first one running*
+```npm run dev```  
 
-`cd frontend`
+**Second terminal**
 
-`npm i` 
+```cd frontend```
 
-`npm run dev`
+```npm i``` 
+
+```npm run dev```
 
 **Airbnb URL to JSON should now be running. You can test it if you visit `http://localhost:5173/`**
 
