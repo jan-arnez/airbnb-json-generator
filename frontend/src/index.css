@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+html,
+body {
+    height: 100%;
+}
+
+:root {
+    --primary: #FF385c;
+    --primary-light: #ff4c6c
+}
+
+/* Hero image animation */
+.image-scale-animate {
+    transform-origin: top center;
+    animation: scaleAnimation 10s ease-in-out infinite alternate;
+}
+
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1.4) translateX(40%);
+    }
+
+    100% {
+        transform: scale(1.4) translateX(-40%);
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    @keyframes scaleAnimation {
+        0% {
+            transform: scale(1);
+        }
+
+        20% {
+            transform: scale(1.4) translateX(40%);
+        }
+
+        100% {
+            transform: scale(1.4) translateX(-40%);
+
+        }
+    }
+
+    @keyframes scaleAnimation {
+        0% {
+            transform: scale(2);
+        }
+
+        20% {
+            transform: scale(3.6) translateX(40%);
+        }
+
+        100% {
+            transform: scale(3.6) translateX(-40%);
+
+        }
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-light);
+}
