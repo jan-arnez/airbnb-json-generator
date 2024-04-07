@@ -3,9 +3,9 @@
 ### How to use the generator
 1. Fork the project
 
-2. Install dependencies and run both projects
+2. Open 2 separate terminals
 
-**Second terminal**
+**First terminal**
 ```cd backend```
 
 ```npm i```
@@ -13,7 +13,6 @@
 ```npm run dev```  
 
 **Second terminal**
-
 ```cd frontend```
 
 ```npm i``` 
@@ -28,6 +27,6 @@
 `backend/src/scrapers/contentScraper.js`
 
 **Why did you build this project? 
-I had some spare time and I knew in the future that I want to do Airbnb clone but don't want to loose time adding data to seed the database so I created this.
+I had some spare time and knew in the future that I wanted to do an Airbnb clone but don't want to waste time adding data to seed the database so I created this.
 
 
