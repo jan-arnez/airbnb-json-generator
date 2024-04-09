@@ -12,6 +12,8 @@
 
 ```npm run dev```  
 
+Create .env file and add ```VITE_BACKEND_URL=http://localhost:3000```
+
 **Second terminal**
 ```cd frontend```
 
