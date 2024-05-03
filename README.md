@@ -27,8 +27,3 @@ Create .env file and add ```VITE_BACKEND_URL=http://localhost:3000```
 
 **You can do that in the following file:**
 `backend/src/scrapers/contentScraper.js`
-
-### Why did you build this project? 
-I had some spare time and knew in the future that I wanted to do an Airbnb clone but don't want to waste time adding data to seed the database so I created this.
-
-
